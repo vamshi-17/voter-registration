@@ -11,7 +11,7 @@ import { VoterFormData } from './types';
 const App: React.FC = () => {
   const methods = useForm<VoterFormData>({
     defaultValues: {
-      firstName: '',
+      firstName: 'Vamshi',
       lastName: '',
       gender: '',
       dob: '',
